@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  background-color: lightblue;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item a {
+  font-size: 2rem;
+  text-decoration: none;
+  margin-left: 50px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container h2 {
+  font-size: 2rem;
+  color: #69c41e;
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  left: 505px;
+  font-style: italic;
+}
+
+.container form{
+    position:relative;
+    left:960px;
+}
+
+.container input[type=text]{
+    width:300px;
+    box-sizing: border-box;
+    padding:10px 12px;
+}
+.container input[type=text]:focus{
+    outline:none;
+}
+.container input[type=submit]{
+    margin-left:10px;
+    border:none;
+    cursor:pointer;
+    color:lightgreen;
+    box-sizing: border-box;
+    padding:10px;
+}
+.container input[type=submit]:hover{
+    border:1px solid lightgreen;
+    background-color:white;
+    font-weight: bolder;
+}
+
+.item a:link,
+.item a:visited {
+  color: red;
+}
+.item a:hover {
+  color: blue;
+}
+.item a:active {
+  color: violet;
+}
+
+
+.items:hover {
+    border:1px solid black;
+}
+.items button{
+    border:none;
+    margin-top: 4px;
+    padding: 5px;
+    position: relative;
+    left:210px;
+    color:cadetblue;
+    font-weight:bolder;
+    background-color:white;
+    font-style: italic;
+}
+
+.items button:hover{
+
+  cursor:pointer;
+  border:2px solid pink;
+
+}
+
+.image .items{
+  display:inline-block;
+}
+
+.items{
+  margin:40px;
+}
